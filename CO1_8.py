@@ -1,3 +1,5 @@
 word = input("Enter a string: ")
-result = '$' + word[1:]
+first = word[0]
+result = first + word[1:].replace(first, '$')
 print(result)
+
