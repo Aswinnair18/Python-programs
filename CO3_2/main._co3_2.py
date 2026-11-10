@@ -1,6 +1,10 @@
 from graphics import circle,rectangle
 from graphics.ThreeDgraphics import cuboid,sphere
 print("\n Circle")
+print("area of circle=",circle.circle(1))
+print("perimete of circle=",circle.perimeter(3))
+
+print("\n rectangle")
 print("area of the rectangle=",rectangle.area(2,3))
 print("Perimeter of rectangle=",rectangle.perimeter(7,13))
 
@@ -12,3 +16,4 @@ print("\n Sphere")
 print("Area of the sphere=",sphere.spherearea(4))
 print("Perimeter of the sphere=",sphere.sphereperimeter(4,3))
 
+                                
