@@ -25,6 +25,11 @@ t1 = Time(2, 45, 50)
 t2 = Time(1, 30, 20)
 
 t3 = t1 + t2
+print("First Time:")
+t1.display()
+
+print("Second Time:")
+t2.display()
 
 print("Sum of two time :")
 t3.display()
